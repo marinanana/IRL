@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   number: XX
-  theme: Test
+  theme: TEST
   numberText: {fileID: 114014285283904932}
   themeText: {fileID: 114396346742810230}
 --- !u!222 &222322011510999140
