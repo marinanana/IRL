@@ -8,6 +8,10 @@ namespace IRL
     {
         [SerializeField]
         private GameObject contentButtons;
+        [SerializeField]
+        private GameObject background;
+        [SerializeField]
+        private GameObject hud;
 
         void Start()
         {
@@ -16,12 +20,22 @@ namespace IRL
 
         public void DisplayDefaultView()
         {
+            //Display objects
             contentButtons.SetActive(true);
+            background.SetActive(true);
+
+            //Hide objects
+            hud.SetActive(false);
         }
 
         public void DisplayThemeView()
         {
+            //Display objects
+            hud.SetActive(true);
+
+            //Hide objects
             contentButtons.SetActive(false);
+            background.SetActive(false);
         }
     }
 }

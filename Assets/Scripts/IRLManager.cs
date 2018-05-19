@@ -16,5 +16,11 @@ namespace IRL
             mainMenu.DisplayThemeView();
             vuforiaCamera.TurnOn();
         }
+
+        public void OnClickDisplayDefaultView()
+        {
+            mainMenu.DisplayDefaultView();
+            vuforiaCamera.TurnOff();
+        }
     }
 }
