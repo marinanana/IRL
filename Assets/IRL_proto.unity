@@ -181,7 +181,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -0.000039972987, y: 0.000013651996}
-  m_SizeDelta: {x: 0.00012207, y: 0}
+  m_SizeDelta: {x: 0.00012207, y: 500}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &178169594
 MonoBehaviour:
@@ -678,7 +678,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 99c4d7c4a374ac446bc4c02046d2c3ef, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -797,16 +797,6 @@ Prefab:
     - target: {fileID: 1864253230062368, guid: 699fa60c10058ef46bc0187be2ac4f13, type: 2}
       propertyPath: m_Name
       value: Theme01
-      objectReference: {fileID: 0}
-    - target: {fileID: 114676114316551544, guid: 699fa60c10058ef46bc0187be2ac4f13,
-        type: 2}
-      propertyPath: number
-      value: 01
-      objectReference: {fileID: 0}
-    - target: {fileID: 114676114316551544, guid: 699fa60c10058ef46bc0187be2ac4f13,
-        type: 2}
-      propertyPath: theme
-      value: Kuma
       objectReference: {fileID: 0}
     - target: {fileID: 114244501259189312, guid: 699fa60c10058ef46bc0187be2ac4f13,
         type: 2}
@@ -1485,7 +1475,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 36968bd7c6ea9224281258d3386007b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b10270f7530296d44ae5b9b158b4194b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
